@@ -3,7 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: tonsnoei/photon-geocoder:latest
     volumes:
       - /home/user/photon/data:/photon/photon_data
     ports:
